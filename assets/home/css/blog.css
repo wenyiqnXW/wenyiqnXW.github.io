@@ -16,6 +16,23 @@
   margin-bottom: 10px;
 }
 
+.content-li.li1>a.li1-box {
+  display: block;
+  text-decoration: none;
+}
+
+.li2-box a,
+.li3-box a {
+  color: var(--headerFont);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.li2-box a:hover,
+.li3-box a:hover {
+  color: var(--mainColor);
+}
+
 .li1-box>svg {
  margin-bottom: 10px;
 }
